@@ -1,12 +1,11 @@
 import java.text.NumberFormat;
 import java.util.Locale;
 import java.util.Scanner;
-import javax.swing.*;
 
 public class MorgageCalculator {
     public static void main(String[] args) {
-        // Morgage calculator
-
+        
+        // Declare Month in a year and percentage as constants
         final byte MONTHS_IN_YEAR = 12;
         final byte PERCENTAGE = 100;
 

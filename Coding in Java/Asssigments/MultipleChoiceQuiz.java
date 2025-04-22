@@ -1,3 +1,14 @@
+/* This folder contains a code for Programming Assignment Unit 1, UOPEOPLE COMPUTER SCIENCE CLASS */
+/* 
+ ASSIGNMENT DESCRIPTION: 
+
+ 
+
+
+ */
+
+package Asssigments;
+
 import java.util.Scanner;
 
 public class MultipleChoiceQuiz {
@@ -18,9 +29,9 @@ public class MultipleChoiceQuiz {
             // Display question and options using a switch statement
             switch (i) {
                 case 0:
-                    System.out.println("Question 1: What is the capital of France?");
+                    System.out.println("Question 1: What is the capital of Equatorial Guinea?");
                     System.out.println("A. Berlin");
-                    System.out.println("B. Paris");
+                    System.out.println("B. Malabo");
                     System.out.println("C. Madrid");
                     System.out.println("D. Rome");
                     break;  
@@ -63,7 +74,7 @@ public class MultipleChoiceQuiz {
                 userAnswer = input.charAt(0);
             }
 
-            // Check if the answer is valid
+            // Check if the answer is valid (this behavior can be achieved with multiples if-else)
             if (userAnswer == 'A' || userAnswer == 'B' || userAnswer == 'C' || userAnswer == 'D') {
                 // Compare user's answer to correct answer
                 if (userAnswer == correctAnswers[i]) {
@@ -73,13 +84,17 @@ public class MultipleChoiceQuiz {
                 System.out.println("Invalid answer. Moving to next question.");
             }
 
-            System.out.println(); // Space between questions
+            System.out.println(); // Adds space between questions
         }
 
         // Calculate and display final score
         double percentage = (correctCount / 5.0) * 100;
         System.out.println("You answered " + correctCount + " out of 5 questions correctly.");
         System.out.println("Your final score: " + percentage + "%");
+
+        // ------------------- To Do ----------------
+        // Calculate number of wrong answers
+        // Add graphical interaction
 
         scanner.close(); // Close the scanner
     }
