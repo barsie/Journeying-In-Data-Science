@@ -18,8 +18,11 @@ public class BookManagement {
 
         // Loop to select options
         boolean exit = false;
+
         while (!exit) {
-            printMenu();
+            
+            printMenu(); // All option to select
+
             int option = getIntInput("Select an option: ");
 
             switch (option) {
@@ -78,7 +81,9 @@ public class BookManagement {
         return -1; // Book not found
     }
 
-    // 
+    // Build method that updates global arrays
+
+    // Adding books methods
     static void AddBook(Scanner scanner) {
         System.out.print("Enter book title: ");
         String title = scanner.nextLine().trim().toUpperCase();
@@ -110,6 +115,7 @@ public class BookManagement {
         }
     }
 
+    // BorrowBooks Method
     static void BorrowBook(Scanner scanner) {
         System.out.print("Enter book title to borrow: ");
         String title = scanner.nextLine().trim().toLowerCase();
@@ -128,6 +134,7 @@ public class BookManagement {
         }
     }
 
+    // ReturnBook method 
     static void ReturnBook(Scanner scanner) {
         System.out.print("Enter book title to return: ");
         String title = scanner.nextLine().trim().toLowerCase();
@@ -142,10 +149,11 @@ public class BookManagement {
             System.out.println("Successfully returned " + qty + " copy(ies) of \"" + title + "\".");
             System.out.println("The library has increased the books to: " + BookQuantity.length);
             System.out.println("--------- Here are the total book: ---------");
-            System.out.println(Arrays.deepToString(BookAuthors));
+            System.out.println(Arrays.deepToString(BookTitles));
         }
     }
 
+    // Handle array sizes
     static void resizeArrays() {
         int newSize = BookTitles.length * 2; // Double the size of the arrays
         BookTitles = resizeArray(BookTitles, newSize);
@@ -153,13 +161,14 @@ public class BookManagement {
         BookQuantity = resizeArray(BookQuantity, newSize);
     }
 
-    // Helper method to resize an array
+    // Helper method to resize an array of type String
     static String[] resizeArray(String[] oldArray, int newSize) {
         String[] newArray = new String[newSize]; // copying array to a new variable
         System.arraycopy(oldArray, 0, newArray, 0, oldArray.length);
         return newArray;
     }
 
+    // Helper method to resize an array of type Int
     static int[] resizeArray(int[] oldArray, int newSize) {
         int[] newArray = new int[newSize];
         System.arraycopy(oldArray, 0, newArray, 0, oldArray.length);
