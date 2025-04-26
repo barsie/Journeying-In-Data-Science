@@ -1,3 +1,5 @@
+package SmallPrograms;
+
 public class incomeValidation {
 
     public static void main(String[] args) {

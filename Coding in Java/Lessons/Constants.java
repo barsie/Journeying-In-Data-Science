@@ -1,4 +1,6 @@
-public class lesson4 {
+package Lessons;
+
+public class Constants {
     public static void main(String[] args) {
         // Declaring constant only requires to add the reserved word file befor the data type
 

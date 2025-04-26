@@ -1,4 +1,6 @@
-public class lesson10 {
+package Lessons;
+
+public class SwithcCaseStatement {
     public static void main(String[] args) {
         String role = "Admin";
 

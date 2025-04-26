@@ -1,3 +1,5 @@
+package SmallPrograms;
+
 import java.util.Scanner;
 
 public class TemperatureEvaluation {

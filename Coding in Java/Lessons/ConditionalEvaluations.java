@@ -1,4 +1,6 @@
-public class lesson9 {
+package Lessons;
+
+public class ConditionalEvaluations {
     public static void main(String[] args) {
         // conditional evaluations
 

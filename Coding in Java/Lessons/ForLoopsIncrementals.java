@@ -1,4 +1,6 @@
-public class lesson11 {
+package Lessons;
+
+public class ForLoopsIncrementals {
     public static void main(String[] args) {
         // For loops and while loops
 

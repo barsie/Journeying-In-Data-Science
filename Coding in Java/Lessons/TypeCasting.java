@@ -1,4 +1,6 @@
-public class lesson5 {
+package Lessons;
+
+public class TypeCasting {
     public static void main(String[] args) {
         /*Implicit casting, when one of the two values are authomatically casted
         byte are implicitly casted as short, short as int and int as long

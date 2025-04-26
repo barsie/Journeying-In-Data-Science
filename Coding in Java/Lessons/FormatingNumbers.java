@@ -1,6 +1,8 @@
+package Lessons;
+
 import java.text.NumberFormat;
 
-public class lesson7 {
+public class FormatingNumbers {
     public static void main(String[] args) {
         // Format numbers in java
         // We cannot create an instance of NumberFormat because is abstract

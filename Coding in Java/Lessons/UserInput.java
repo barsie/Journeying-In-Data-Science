@@ -1,6 +1,8 @@
+package Lessons;
+
 import java.util.Scanner;
 
-public class lesson8 {
+public class UserInput {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
