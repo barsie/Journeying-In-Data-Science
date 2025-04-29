@@ -7,7 +7,7 @@
 
  */
 
-package Asssigments;
+package Asssignments;
 
 import java.util.Scanner;
 

@@ -24,7 +24,6 @@ public class MethodsParameters {
         }
     }
 
-
     /*
         WORKING WITH TWO PARAMETERS AND PRIVATE METHODS
 
