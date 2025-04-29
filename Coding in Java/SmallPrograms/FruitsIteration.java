@@ -1,3 +1,5 @@
+package SmallPrograms;
+
 public class FruitsIteration {
     public static void main(String[] args) {
         

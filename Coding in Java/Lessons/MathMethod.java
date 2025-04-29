@@ -1,4 +1,7 @@
-public class lesson6 {
+package Lessons;
+
+
+public class MathMethod {
     public static void main(String[] args) {
         // working with the Math method
         // int result = Math.round(1.4f);

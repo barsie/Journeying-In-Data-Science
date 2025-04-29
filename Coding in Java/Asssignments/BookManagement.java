@@ -1,11 +1,11 @@
-package Asssigments;
+package Asssignments;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class BookManagement {
 
-    // Global variable declaration
+    // Global static variable declaration
     static String[] BookTitles = {"Love Now", "Big Inputs", "Programming Girls"};
     static String[] BookAuthors = {"Tai Pei", "Marcos Van", "Lime Stephan"};
     static int[] BookQuantity = new int[3];
