@@ -4,8 +4,6 @@ import java.util.ArrayList;
 
 public class StockPrices {
 
-
-    
     public static void main(String[] args) {
         int[] stockGeneralPrices = {12, 45, 45, 6890, 334};
         ArrayList <Integer> stockList = new ArrayList<>();
@@ -20,7 +18,7 @@ public class StockPrices {
         int maximum = findMaximumPrice(stockGeneralPrices);
         System.out.println("The maximun amount found in the array is: " + maximum);
 
-        int occurance = 50;
+        int occurance = 12;
         int count = countOccurrences(stockGeneralPrices, occurance);
         System.out.println("Repeated occurance " + occurance + ": " + count);
 
@@ -57,7 +55,7 @@ public class StockPrices {
                 count ++; // increment counter
             }
         }
-        return 0;
+        return count;
     }
 
     // Compute the cumulative sum of stock price:
