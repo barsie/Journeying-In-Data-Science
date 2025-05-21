@@ -1,10 +1,17 @@
 package TestFeatures;
 
+import java.util.ArrayList;
+
 public class test {
     public static void main(String[] args) {
         // String input = JOptionPane.showInputDialog("Please add your number: ".length());
         // System.out.println("Your string lengh is: " + input);
         
+        ArrayList <String> colors = new ArrayList<String>();
+        colors.add("red");
+        colors.add("blue");
+        colors.remove("green"); // this is not counted is not added to the array
+        System.out.println("arraylist size is: " + colors.size());
         int y;
         int x = 0;
         if(x < 0){
