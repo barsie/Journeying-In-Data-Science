@@ -23,7 +23,7 @@ public class Car implements Vehicle, CarVehicle{
         
         // Evaluate set fuel types to Diesel, Patrol and Gas
         if (fuelType.equalsIgnoreCase("Diesel") 
-            || (fuelType.equalsIgnoreCase("Patrol") 
+            || (fuelType.equalsIgnoreCase("Petrol") 
             || (fuelType.equalsIgnoreCase("Hybrid")) 
             || (fuelType.equalsIgnoreCase("Electric"))
             )){
@@ -36,5 +36,4 @@ public class Car implements Vehicle, CarVehicle{
 
     @Override public String getFuelType(){ return fuelType;}
     
-
 }

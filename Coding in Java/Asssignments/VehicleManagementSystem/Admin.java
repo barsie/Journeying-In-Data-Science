@@ -94,3 +94,4 @@ public class Admin {
                 truck.getCargoCapacity(), truck.getTransmissionType());
     }
 }
+

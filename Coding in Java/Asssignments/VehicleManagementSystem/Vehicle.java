@@ -8,3 +8,4 @@ public interface Vehicle {
 
     public int manufacturingYear();
 }
+
