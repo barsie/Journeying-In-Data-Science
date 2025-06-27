@@ -14,7 +14,7 @@ public class Main {
         boolean isRaining = false;
 
         // REFERENCE TYPES: they allocate memory and allow instances of objects
-        Date now = new Date(); // now is and instance of the object data it will - 
+        Date now = new Date(); // now it's an instance of the object data it will - 
         now.getTime();
         System.out.println(now);
         System.out.println("Maria Jose " + age);
